@@ -29,5 +29,5 @@ cacheSolve <- function(x, ...) {
         data_matrix <- x$get()
         p <- mean(data_matrix, ...)
         x$setInv(p)
-        m
+        p
 }
